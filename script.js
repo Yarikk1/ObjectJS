@@ -71,5 +71,7 @@ for (let i = 0; i < 3; i++) {
 carsArray.sort((a, b) => b[1].year - a[1].year)
 
 for (let i = 0; i < 3; i++) {
-  console.log(`${carsArray[i][0]} - ${carsArray[i][1].year} year, color: ${carsArray[i][1].color}, country: ${carsArray[i][1].country}`)
+  console.log(
+    `${carsArray[i][0]} - ${carsArray[i][1].year} year, color: ${carsArray[i][1].color}, country: ${carsArray[i][1].country}`
+  )
 }
